@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7fe9b2">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/back2a1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@android:drawable/ic_menu_revert"
+            android:clickable="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country"
+            android:clickable="true"
+            android:spinnerMode="dropdown"
+            android:layout_below="@+id/tripType"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tripType"
+            android:clickable="true"
+            android:spinnerMode="dropdown"
+            android:layout_below="@+id/back2a1"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm Done!"
+            android:id="@+id/Done"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</LinearLayout>

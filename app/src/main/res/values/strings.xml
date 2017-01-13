@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PackMeUp</string>
+    <string name="button1">Help Me Pack!!</string>
+    <string name="ok">OK</string>
+    <string name="clothname">\@clothName</string>
+    <string name="packmeup">PackMeUP</string>
+    <string name="email">-Email-</string>
+    <string name="password">-password-</string>
+    <string name="pmu_logo">PMU_logo</string>
+    <string name="its_time_to_pack">Its time to pack</string>
+    <string-array name="country">
+        <item>-Country-</item>
+        <item>Miami</item>
+        <item>New York</item>
+        <item>Boston</item>
+        <item>Tel Aviv</item>
+        <item>Rio De Jenro</item>
+    </string-array>
+    <string-array name="tripType">
+        <item>-Your Trip Type-</item>
+        <item>Family Trip</item>
+        <item>Business</item>
+        <item>Hyking</item>
+        <item>City Trip</item>
+    </string-array>
+
+</resources>
